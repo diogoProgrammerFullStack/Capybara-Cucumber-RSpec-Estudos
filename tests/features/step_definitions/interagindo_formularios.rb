@@ -1,6 +1,6 @@
 Quando("eu faco cadastro") do
     visit('/users/new')
-    #metodos para escreve(sendKeys)
+    #metodos para escrever - (sendKeys)
     fill_in(id: 'user_name', with: 'diogo')
     find('#user_lastname').set('oliveira')
     find('#user_email').send_keys('diogooliveirati4@gmail.com')
