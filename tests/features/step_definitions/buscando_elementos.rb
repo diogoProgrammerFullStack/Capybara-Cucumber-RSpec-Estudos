@@ -3,7 +3,7 @@ Quando("acesso a url de botoes") do
 end
   
 Entao("verifico se encontrei os elementos") do
-    #all busca todos os elementos que contenham o all
+    #all busca todos os elementos que contenham o .btn
     page.all(:css, '.btn')
     #busca um elemento mapeado
     find('#teste')
